@@ -21,7 +21,7 @@ const BodyComponent = () =>{
 
     const fetchData = async ()=>{
         console.log('fetch data')
-        const data = await fetch('https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&page_type=DESKTOP_WEB_LISTING');
+        const data = await fetch('https://cors-anywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&page_type=DESKTOP_WEB_LISTING');
 
         const json = await data.json();
         const cardDetailedList = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
