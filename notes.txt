@@ -1,0 +1,31 @@
+1. VS code use emmet to generate a specific code
+2. What is cdn? (content delivery network) where the react framework is hosted.
+3. Why we use cdn?
+4. What is crossorigin in script tag
+5. Core React - DONE
+6. JSX 
+7. ^ and ~ difference in package 
+8. npx - excuting a package  npm - install any package
+9. babel, parcel
+10. There are two types of component in react.
+    - Class based old way of writing code:
+	- Functional based new way of writing code: Just normal JS function with return some jsx element. 
+11. Component composition is nothing but using functional component in other func component.
+12. Food Odering App
+13. Use prop as argument to share dynamic data in component 
+14. For loop use item.map and inside that include the html
+15. React hooks : useState()-> to change the data we use this useState, useEffect() -> ,..
+15. Whenever a state variables updates, react will re-render the component.
+16. Super power of react:
+    - Reconciliation Algorithm or React fiber(after react 16 its is known as react fiber): Idenityfying the diff and updating the dom.
+	  https://github.com/acdlite/react-fiber-architecture
+	- Virtual DOM is basically an object of body or group of tags used in component.
+	- Why react is fast? Because react is doing efficient dom manipulation using virtual DOM.
+17. Monolithic Architecture: Everything is there in same project.
+18. Micro Service Architecture: We have diff services for everything eg.: UI, BE, Database and they talk to each other using context.	
+19. UseEffect() -> It takes two arguments which we pass in this 1. Arrow function 2. Dependency value. It will be called after the component renders.
+20. CORS -> Our browser blocks us to call api from one origin to another origin. i.e. origin mismatch causes CORS error.
+21. Why we need state variables? -> To update the variable dynamically and use it in UI we use state variable otherwise whatever we change is js file won't be seen on UI unless we use useState.
+22. When we use useState to change value on UI the particular component re-render and then the specific value is getting updated.
+23.     
+	
