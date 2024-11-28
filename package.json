@@ -9,14 +9,19 @@
   },
   "author": "lucky dubey",
   "license": "ISC",
+  "proxy": "https://www.swiggy.com",
   "devDependencies": {
     "parcel": "^2.12.0",
-    "process": "^0.11.10"
+    "postcss": "^8.4.47",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.14"
   },
   "dependencies": {
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   }
 }

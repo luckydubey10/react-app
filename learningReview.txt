@@ -1,0 +1,5 @@
+Date: 09/09/2024 (Monday)
+- Routing (Router provider, outlet, link)
+- Error page handling 
+- Dynamic routing
+- 
